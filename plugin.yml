@@ -1,0 +1,13 @@
+name: PluginManager
+main: pmmpplugins\pluginmanager\PluginManager
+version: 1.0.0
+api: [3.0.0, 4.0.0]
+author: "PMMP-Plugins"
+
+permissions:
+  pluginmanager.enable:
+    default: op
+    description: "Allows: Enable a (disabled) plugin."
+  pluginmanager.disable:
+    default: op
+    description: "Allows: Disable a (enabled) plugin."
